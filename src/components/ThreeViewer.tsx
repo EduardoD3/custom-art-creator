@@ -1,5 +1,6 @@
+import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Environment, Suspense } from '@react-three/drei';
+import { OrbitControls, Environment } from '@react-three/drei';
 import FrameMesh from './FrameMesh';
 
 export default function ThreeViewer() {

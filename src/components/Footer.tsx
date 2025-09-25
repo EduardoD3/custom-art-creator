@@ -14,15 +14,15 @@ export default function Footer() {
               e tecnologia de preview 3D em tempo real.
             </p>
             <div className="mt-6 flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Instagram
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Facebook
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Pinterest
-              </Link>
+              </a>
             </div>
           </div>
           
@@ -30,19 +30,19 @@ export default function Footer() {
             <h3 className="font-display font-semibold mb-4">Produtos</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><Link to="/customizar" className="hover:text-primary transition-colors">Quadros Personalizados</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Coleções</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Molduras</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Materiais Premium</Link></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Coleções</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Molduras</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Materiais Premium</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-display font-semibold mb-4">Suporte</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><Link href="#" className="hover:text-primary transition-colors">FAQ</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Guia de Tamanhos</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Política de Trocas</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Contato</Link></li>
+              <li><a href="#" className="hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Guia de Tamanhos</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Política de Trocas</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Contato</a></li>
             </ul>
           </div>
         </div>
@@ -52,9 +52,9 @@ export default function Footer() {
             © 2024 Norte Interiores. Todos os direitos reservados.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6 text-sm text-muted-foreground">
-            <Link href="#" className="hover:text-primary transition-colors">Termos de Uso</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Política de Privacidade</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Cookies</Link>
+            <a href="#" className="hover:text-primary transition-colors">Termos de Uso</a>
+            <a href="#" className="hover:text-primary transition-colors">Política de Privacidade</a>
+            <a href="#" className="hover:text-primary transition-colors">Cookies</a>
           </div>
         </div>
       </div>

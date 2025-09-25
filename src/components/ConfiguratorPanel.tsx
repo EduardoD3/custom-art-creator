@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import { useConfigurator } from '@/store/useConfigurator';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -36,9 +36,10 @@ export default function ConfiguratorPanel() {
     calculatePrice
   } = useConfigurator();
 
-  useState(() => {
+  // Calculate price when dependencies change
+  useEffect(() => {
     calculatePrice();
-  }, [frameColor, frameThickness, frameDepth, matteEnabled, matteWidth, size, material, glass]);
+  }, [frameColor, frameThickness, frameDepth, matteEnabled, matteWidth, size, material, glass, calculatePrice]);
 
   const handleArtSelect = (art) => {
     setArt(art);
