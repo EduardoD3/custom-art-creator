@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Norte Interiores brand colors
+        'nt-charcoal': "hsl(var(--nt-charcoal))",
+        'nt-ice': "hsl(var(--nt-ice))",
+        'nt-sand': "hsl(var(--nt-sand))",
+        'nt-olive': "hsl(var(--nt-olive))",
+        'nt-terracotta': "hsl(var(--nt-terracotta))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +63,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        'display': ['Playfair Display', 'serif'],
+        'body': ['Inter', 'sans-serif'],
+      },
+      boxShadow: {
+        'elegant': 'var(--shadow-elegant)',
+        'soft': 'var(--shadow-soft)',
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-subtle': 'var(--gradient-subtle)',
       },
       borderRadius: {
         lg: "var(--radius)",
