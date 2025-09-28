@@ -1,3 +1,5 @@
+"use state"
+
 import { Suspense, useEffect } from 'react';
 import { useConfigurator } from '@/store/useConfigurator';
 import Header from '@/components/Header';

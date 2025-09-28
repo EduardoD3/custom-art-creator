@@ -7,25 +7,23 @@ export default function ThreeViewer() {
   return (
     <div className="w-full h-96 lg:h-[500px] bg-nt-sand/10 rounded-xl overflow-hidden shadow-soft">
       <Canvas
-        camera={{ position: [0, 0, 5], fov: 45 }}
+        camera={{ position: [0, 0, 5], fov: 65 }}
         dpr={[1, 2]}
         shadows={false}
       >
         <Suspense fallback={null}>
           <ambientLight intensity={0.6} />
-          <directionalLight position={[5, 5, 5]} intensity={0.8} />
+          <directionalLight position={[5, 5, 5]} intensity={1.0} />
           <Environment preset="studio" />
           
-          <FrameMesh />
-          
+          <FrameMesh /> {/* Agora gira sozinho */}
+
           <OrbitControls
             enablePan={false}
             enableZoom={true}
             enableRotate={true}
             maxDistance={8}
             minDistance={3}
-            maxPolarAngle={Math.PI / 2}
-            minPolarAngle={Math.PI / 4}
           />
         </Suspense>
       </Canvas>
