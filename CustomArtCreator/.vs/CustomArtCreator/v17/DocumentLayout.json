@@ -1,14 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\CustomArtCreator\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{72792835-5ABF-4472-863E-7315B54B4846}|..\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj|c:\\users\\06762048218\\source\\repos\\custom-a-creator\\server\\customartcreator.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -16,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,32 +50,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\server\\CustomArtCreator.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "..\\server\\CustomArtCreator.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\server\\CustomArtCreator.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "..\\server\\CustomArtCreator.Api\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T16:44:27.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomArtCreator.Api.csproj.user",
-              "DocumentMoniker": "C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj.user",
-              "RelativeDocumentMoniker": "..\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj.user",
-              "ToolTip": "C:\\Users\\06762048218\\source\\repos\\custom-A-creator\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj.user",
-              "RelativeToolTip": "..\\server\\CustomArtCreator.Api\\CustomArtCreator.Api.csproj.user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-09-29T16:44:25.884Z",
-              "EditorCaption": ""
             }
           ]
         },
